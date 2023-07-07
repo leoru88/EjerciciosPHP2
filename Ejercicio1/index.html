@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="estilos.css" rel="stylesheet" type="text/css" />
+
+  <title>CONVERSOR MONEDA (PESOS COLOMBIANOS)</title>
+
+</head>
+
+<body style="background-image: url('https://i.pinimg.com/564x/ed/ab/81/edab81c76164e4513ea964dd707167b3.jpg'); background-origin: border-box;">
+
+
+  <div>
+    <center><img src="https://userscontent2.emaze.com/images/44569c73-a7fc-433f-895d-50bd967ec7eb/28b1ea32257fd55f002d307c81d5570a.png" 
+    alt="Texto de Bienvenido" style="font-size: medium; text-align: center; width: 500px; height: 150px; "></center>
+    
+    <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Colombia.png/800px-Flag_of_Colombia.png" 
+    alt="Bandera de Colombia" style="font-size: medium; text-align: center; width: 380px; height: 20px; "></center>
+  </div>
+
+  <h1 class="formulario__titulo">Conversor de pesos <br> colombianos</h1>
+
+  <center>
+    
+    <form action="procesar.php" method="post" class="formulario">
+      
+      <img src="https://www.ismaeldelacruzfinanzas.com/wp-content/uploads/2017/11/Divisas-2-s.jpg" 
+      alt="Descripción de la imagen" style="width: 300px; height: 200px;">
+
+      
+      <h1 class="formulario__titulo">Ingrese la Cantidad:</h1><br>
+      
+      <label for="Cantidad de pesos colombianos" class="formulario__label"></label>
+      
+      <input type="text" id="cantidad" name="peso_colombiano" class="formulario__input" />
+
+      
+  
+      <label>Seleccione la divisa:</label>
+
+      <select name="moneda" id="" class="formulario__submit">
+        <option value="USD">Dólar Americano</option>
+        <option value="EURO">Euro</option>
+        <option value="BOLIVAR VENEZOLANO">Bolívar Venezolano</option>
+        <option value="SOL PERUANO">Sol Peruano</option>
+      </select><br />
+
+      <input type="submit" value="Calcular" class="formulario__submit" />
+    </form>
+  </center>
+
+
+  <form action="" class="formulario" >
+
+    <h1 class="formulario__titulo" >Contáctenos para más información</h1>
+
+    <input type="text" class="formulario__input">
+    <label for="" class="formulario__label">Nombre completo</label>
+
+    <input type="email" class="formulario__input">
+    <label for="" class="formulario__label">E-Mail</label>
+
+    <input type="text" class="formulario__input">
+    <label for="" class="formulario__label">Teléfono</label>
+
+    <input type="text" class="formulario__input">
+    <label for="" class="formulario__label">Mensaje</label>
+
+    <input type="submit" name="" id="" class="formulario__submit">
+
+  </form>
+
+
+</body>
+
+</html>
